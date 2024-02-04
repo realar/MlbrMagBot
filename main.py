@@ -6,7 +6,6 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from keep_alive import keep_alive
 keep_alive()
 
-BOT_TOKEN = "6831552191:AAFTaXZTef19IdWXa-zETWr2ROTprPxAS9o"
 
 bot = Bot(token=os.environ.get('token'))
 dp = Dispatcher()
